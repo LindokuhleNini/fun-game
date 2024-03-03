@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-div{
+    display: flex;
+    width: 100%;
+}
+
+canvas {
+    background-image: url('images/background1.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: 100%;
+    background-position: center bottom; 
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
